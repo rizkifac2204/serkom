@@ -1,0 +1,32 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#nprogress {
+  position: relative;
+  z-index: 9999;
+}
+
+#nprogress .bar {
+  background: red !important;
+}
+#nprogress .spinner .spinner-icon {
+  border-left-color: rgb(255, 53, 3);
+}
+
+.Toastify__toast-container {
+  --toastify-z-index: 10000;
+}
